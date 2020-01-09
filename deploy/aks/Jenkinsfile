@@ -1,6 +1,6 @@
 node('master') {
 
-    def servicePrincipalId = 'd82ba1ed-c04c-43b2-bd2b-66f513e504a0'
+    def servicePrincipalId = 'myServicePrincipal'
     def resourceGroup = 'myAksResourceGroup'
     def aks = 'myAksCluster'
 
