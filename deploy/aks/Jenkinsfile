@@ -95,7 +95,7 @@ node('master') {
                   containerService: "${aks} | AKS",
                   configFilePaths: 'src/aks/deployment.yml',
                   enableConfigSubstitution: true,
-                  secretName: dockerRegistry,
+                  secretName: dockerRegistry
                   // containerRegistryCredentials: [[credentialsId: dockerCredentialId, url: "http://${dockerRegistry}"]]
     }
 
